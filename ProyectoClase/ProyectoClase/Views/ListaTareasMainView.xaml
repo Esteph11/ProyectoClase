@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoClase.Views.ListaTareasView"
+             xmlns:viewModel="clr-namespace:ProyectoClase.ViewModels"
+             x:DataType="viewModel:ListaTareasMainViewModel"
+             xmlns:model="clr-namespace:ProyectoClase.Models"
+             Title="Lista de Tareas Form">
+    <ScrollView>
+        <VerticalStackLayout Padding="10,0,10,0">
+            <Button Text="Agregar Producto" Command="{Binding GoToAddListaTareasFormCommand}" />
+
+            <Grid Margin="5,5,5,5" RowDefinitions="Auto" ColumnDefinitions="*,*,*,*" >
+                <Label Text="Nombre" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" />
+                <Label Text="Descripción" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Marca" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="2" />
+                <Label Text="Precio" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="3" />
+            </Grid>
+            <CollectionView ItemsSource="{Binding ListaTareasCollection}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:ListaTareas">
+                        <Grid RowSpacing="0" RowDefinitions="5,Auto,5,1" ColumnDefinitions="*,*,*,*" VerticalOptions="FillAndExpand" >
+                            <Label Text="{Binding Id}" Grid.Row="1" Grid.Column="0" />
+                            <Label Text="{Binding Tarea}" Grid.Row="1" Grid.Column="1" />
+                            <Label Text="{Binding Descripcion}" Grid.Row="1" Grid.Column="2" />
+                            <Label Text="{Binding Estado}" Grid.Row="1" Grid.Column="3" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewModel:ListaTareasMainViewModel}},Path=SelectProductoCommand}" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

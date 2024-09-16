@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\viewmodels\\listatareasformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\viewmodels\\listatareasformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\viewmodels\\listatareasmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\viewmodels\\listatareasmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\views\\listatareasformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\views\\listatareasformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\services\\listatareasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\services\\listatareasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\views\\listatareasmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\views\\listatareasmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\views\\listatareasmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\views\\listatareasmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\views\\listatareasformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\views\\listatareasformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\models\\listatareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\models\\listatareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|c:\\users\\curacao\\documents\\estudio\\project\\proyectoclase\\proyectoclase\\proyectoclase\\proyectoclase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5043978A-1F3F-48DE-8D8E-0CDEB9495974}|ProyectoClase\\ProyectoClase.csproj|solutionrelative:proyectoclase\\proyectoclase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListaTareasFormView.xaml",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasFormView.xaml",
+              "RelativeDocumentMoniker": "ProyectoClase\\Views\\ListaTareasFormView.xaml",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasFormView.xaml",
+              "RelativeToolTip": "ProyectoClase\\Views\\ListaTareasFormView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T22:46:23.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\App.xaml",
+              "RelativeDocumentMoniker": "ProyectoClase\\App.xaml",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\App.xaml",
+              "RelativeToolTip": "ProyectoClase\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T21:27:38.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListaTareasFormView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasFormView.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoClase\\Views\\ListaTareasFormView.xaml.cs",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasFormView.xaml.cs",
+              "RelativeToolTip": "ProyectoClase\\Views\\ListaTareasFormView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T21:13:16.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListaTareasMainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasMainView.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoClase\\Views\\ListaTareasMainView.xaml.cs",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasMainView.xaml.cs",
+              "RelativeToolTip": "ProyectoClase\\Views\\ListaTareasMainView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T21:04:05.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListaTareasMainView.xaml",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasMainView.xaml",
+              "RelativeDocumentMoniker": "ProyectoClase\\Views\\ListaTareasMainView.xaml",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Views\\ListaTareasMainView.xaml",
+              "RelativeToolTip": "ProyectoClase\\Views\\ListaTareasMainView.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T21:04:02.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListaTareasService.cs",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Services\\ListaTareasService.cs",
+              "RelativeDocumentMoniker": "ProyectoClase\\Services\\ListaTareasService.cs",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Services\\ListaTareasService.cs",
+              "RelativeToolTip": "ProyectoClase\\Services\\ListaTareasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T19:21:45.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListaTareasMainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\ViewModels\\ListaTareasMainViewModel.cs",
+              "RelativeDocumentMoniker": "ProyectoClase\\ViewModels\\ListaTareasMainViewModel.cs",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\ViewModels\\ListaTareasMainViewModel.cs",
+              "RelativeToolTip": "ProyectoClase\\ViewModels\\ListaTareasMainViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:49:53.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListaTareasFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\ViewModels\\ListaTareasFormViewModel.cs",
+              "RelativeDocumentMoniker": "ProyectoClase\\ViewModels\\ListaTareasFormViewModel.cs",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\ViewModels\\ListaTareasFormViewModel.cs",
+              "RelativeToolTip": "ProyectoClase\\ViewModels\\ListaTareasFormViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:23:48.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoClase\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\MainPage.xaml",
+              "RelativeToolTip": "ProyectoClase\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T16:50:37.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListaTareas.cs",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Models\\ListaTareas.cs",
+              "RelativeDocumentMoniker": "ProyectoClase\\Models\\ListaTareas.cs",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\Models\\ListaTareas.cs",
+              "RelativeToolTip": "ProyectoClase\\Models\\ListaTareas.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T14:41:26.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProyectoClase.csproj",
+              "DocumentMoniker": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\ProyectoClase.csproj",
+              "RelativeDocumentMoniker": "ProyectoClase\\ProyectoClase.csproj",
+              "ToolTip": "C:\\Users\\curacao\\Documents\\Estudio\\Project\\ProyectoClase\\ProyectoClase\\ProyectoClase\\ProyectoClase.csproj",
+              "RelativeToolTip": "ProyectoClase\\ProyectoClase.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-15T14:24:44.934Z"
             }
           ]
         }

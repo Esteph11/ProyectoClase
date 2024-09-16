@@ -1,14 +1,17 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
-             x:Class="TodoListApp.Views.MainPage"  
-             x:DataType="local:TaskViewModel">
+             x:Class="ProyectoClase.MainPage"  
+            
     <StackLayout Padding="20">
-        <ListView ItemsSource="{Binding Tasks}" SelectedItem="{Binding SelectedTask}">
+        <ListView ItemsSource="{Binding Tarea}" SelectedItem="{Binding SelectedTask}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Title}" Detail="{Binding Status}" />
+                    <TextCell Text="{Binding Descripcion}" Detail="{Binding Descripcion}" />
                 </DataTemplate>
-            </ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Estado}" Detail="{Binding Estado}" />
+                </DataTemplate>
+        </ListView.ItemTemplate>
         </ListView>
         <Button Text="Añadir Tarea" Command="{Binding AddTaskCommand}" />
         <Button Text="Eliminar Tarea" Command="{Binding DeleteTaskCommand}" />

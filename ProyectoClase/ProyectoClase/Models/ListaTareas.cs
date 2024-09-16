@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SQLite;
 
 namespace ProyectoClase.Models
 {
     public class ListaTareas
     {
-        public string Titulo { get; set; }
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
+
+        [NotNull]
+        public string Tarea { get; set; }
+        
+        [NotNull]
         public string Descripcion { get; set; }
+        
+        [NotNull]
         public string Estado { get; set; } 
     }
 

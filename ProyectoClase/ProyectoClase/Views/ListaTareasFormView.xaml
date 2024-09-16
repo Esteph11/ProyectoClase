@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoClase.Views.ListaTareasFormView"
+             xmlns:viewModel="clr-namespace:ProyectoClase.ViewModels"
+             x:DataType="viewModel:ListaTareasFormViewModel"
+             Title="Lista de Tareas Form">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0,30,0" Spacing="5" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+
+            <Label Text="Nombre de la tarea:" />
+            <Entry Text="{Binding Tarea}" Keyboard="Text" />
+
+            <Label Text="Descrión de la tarea:" />
+            <Entry Text="{Binding Descripcion}" Keyboard="Text" />
+
+            <Label Text="Estado de la tarea:" />
+            <Entry Text="{Binding Estado}" Keyboard="Numeric" />
+
+            <Button Text="Guardar" Command="{Binding AddUpdateCommand}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -4,19 +4,25 @@ using ProyectoClase.Models;
 using ProyectoClase.Services;
 using ProyectoClase.Views;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
+using Microsoft.Maui.Controls;
+using System.Linq;
+
 
 namespace ProyectoClase.ViewModels
 {
-    public class ListaTareasMainViewModel : ObservableObject
+    public partial class ListaTareasMainViewModel : ObservableObject
     {
         [ObservableProperty]
-        private ObservableCollection<ListaTareas> productoCollection = new ObservableCollection<ListaTareas>();
+        private ObservableCollection<ListaTareas> listaTareas = new ObservableCollection<ListaTareas>();
 
-        private readonly ListaTareasService ListaTareasService;
+        private readonly ListaTareasService listaTareasService;
+
+ 
 
         public ListaTareasMainViewModel()
         {
-            ListaTareasService = new ListaTareasService();
+            listaTareasService = new ListaTareasService();
         }
 
         /// <summary>
@@ -34,14 +40,14 @@ namespace ProyectoClase.ViewModels
         /// </summary>
         public void GetAll()
         {
-            var GetAll = ListaTareasService.GetAll();
+            var GetAll = listaTareasService.GetAll();
 
             if (GetAll.Count > 0)
             {
-                ListaTareasCollection.Clear();
+                listaTareas.Clear();
                 foreach (var listaTareas in GetAll)
                 {
-                    ListaTareasCollection.Add(listaTareas);
+                    ListaTareas.Add(listaTareas);
                 }
             }
         }
@@ -59,10 +65,10 @@ namespace ProyectoClase.ViewModels
         /// <summary>
         /// Muestra las opciones para editar o eliminar un prudcto al seleccionarlo
         /// </summary>
-        /// <param name="ListaTareas">Objeto seleccionado para actualizar o eliminar el registro</param>
+        /// <param name="listaTareas">Objeto seleccionado para actualizar o eliminar el registro</param>
         /// <returns>Proceso de opciones al seleccionar el registro del producto</returns>
         [RelayCommand]
-        private async Task SelectListaTareas(ListaTareas ListaTareas)
+        private async Task SelectListaTareas(ListaTareas listaTareas)
         {
             try
             {
@@ -73,7 +79,7 @@ namespace ProyectoClase.ViewModels
 
                 if (res == ACTUALIZAR)
                 {
-                    await App.Current.MainPage.Navigation.PushAsync(new ListaTareasFormView(ListaTareas));
+                    await App.Current.MainPage.Navigation.PushAsync(new ListaTareasFormView(listaTareas));
                 }
                 else if (res == ELIMINAR)
                 {
@@ -81,11 +87,11 @@ namespace ProyectoClase.ViewModels
 
                     if (respuesta)
                     {
-                        int del = ListaTareasService.Delete(ListaTareas);
+                        int del = listaTareasService.Delete(listaTareas);
 
                         if (del > 0)
                         {
-                            ListaTareasCollection.Remove(ListaTareas);
+                            listaTareas.Remove(listaTareas);
                         }
                     }
                 }

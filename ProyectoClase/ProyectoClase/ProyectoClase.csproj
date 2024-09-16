@@ -71,7 +71,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Views\" />
+	  <MauiXaml Update="Views\ListaTareasFormView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ListaTareasMainView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\ListaTareasMainView.xaml.cs">
+	    <DependentUpon>ListaTareasMainView.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

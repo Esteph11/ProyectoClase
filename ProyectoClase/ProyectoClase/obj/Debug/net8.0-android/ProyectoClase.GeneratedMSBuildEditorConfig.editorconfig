@@ -46,3 +46,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoClase.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/curacao/Documents/Estudio/Project/ProyectoClase/ProyectoClase/ProyectoClase/Views/ListaTareasFormView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoClase.Views.ListaTareasFormView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListaTareasFormView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListaTareasFormView.xaml
+
+[C:/Users/curacao/Documents/Estudio/Project/ProyectoClase/ProyectoClase/ProyectoClase/Views/ListaTareasMainView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoClase.Views.ListaTareasMainView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListaTareasMainView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListaTareasMainView.xaml
